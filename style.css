@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+}
+.container{
+    position: relative;
+    
+}
+.header{
+    background-color:rgb(38,189,104);
+    width:100%;
+    height: 77px; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.nav{
+    background-color: rgb(38,189,104);
+    height: 37px;
+    width: 100%;
+    padding-top: 1px;
+    margin-top: 21px;
+}
+.logo{
+    height:28px;
+    width:154;
+    margin-left: 210px;
+}
+.menu{
+    
+    font-size: 15px;
+    height: 33px;
+    width: 286px;
+    margin-left: 428px;
+    margin-top: -39px;
+    color: white;
+    
+
+}
+#menuul{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+#menuul li{
+    
+    width: 80px;
+    margin-inline-start:-8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login{
+    display:flex;
+    cursor: pointer;
+    margin-left: 69%;
+    margin-top: -3%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.login button{
+    width: 100px;
+    height: 37px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 31px;
+    margin-top: 8px;
+    cursor: pointer;
+    
+}
+.section1{
+    width: 100%;
+    height: 565px;
+    background-color:rgb(222,244,233);
+    display: flex;
+    position: relative;
+}
+.image-sec1{
+    height:500px;
+    width: 460px;
+    margin-left: 206px;
+    margin-top: 67px;
+   
+}
+#heading-sec1{
+    text-align: center;
+    color: RGB(6, 103, 89);
+    font-size: 32px;
+    font-family:"avenir";
+    font-weight: 900;
+    line-height: 38px;
+}
+
+.form-div{
+   
+    width: 641px;
+    height: 377px;
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    left: 669px;
+    border-radius: 44px;
+    
+}
+#relation-select{
+    width: 275px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.bgname{
+    
+    width: 275px;
+    height: 29px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.title{
+    color: RGB(45, 62, 80);
+    font-size: 23px;
+    font-family: roboto, sans-serif;
+    line-height: 61px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 33px;
+
+}
+.user-relation{
+    margin-top: 10px;
+    margin-left: 13px;
+    color: grey;
+
+}
+.phone{
+    margin-left: 31px;
+    margin-top: 26px;
+    color: gray;
+    
+}
+.country{
+    height: 35px;
+    width: 105px;
+    margin-left: 25px;
+    margin-top: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+
+}
+.phone1{
+    border: 1px solid #ccc;
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 0.1px;
+}
+.gender{
+    margin-top: -63px;
+    margin-left: 364px;
+    color: gray;
+}
+
+.section2{
+    width: 100%;
+    height: 538px;
+    background-color:rgb(255,255,255);
+}
+
+.section2 img{
+    margin-top: 110px;margin-left: 270px;
+   
+}
+
+
+.image2-2{
+    margin-top: -462px;
+    margin-left: 200px;
+    height: 136px;
+    width: 998px;
+    
+}
+
+.head-1{
+    color: RGB(6, 103, 89);
+    font-size: 32px;
+    font-weight:900;
+    margin-left: 593px;
+    margin-top: 66px;
+}
+ #head2-2{
+    color: RGB(6, 103, 89);
+    font-size:20px ;
+    font-weight:900;
+    margin-left: 183px;
+    margin-top: 477px;
+ }
+.section2 img{
+    margin-top: 110px;
+    margin-left: 200px;
+  
+}
+.h1-sec2{
+    color: RGB(6, 103, 89);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 28px;
+}
+#radio{
+    color: gray;
+    margin-left: 361px;
+    margin-top: 9px;
+    cursor: pointer;
+
+}
+#terms-c{
+    color: gray;
+    margin-top: 39px;
+    margin-left: 19px;
+    cursor: pointer;
+}
+.notification{
+    color: gray;
+    margin-top: 22px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.button1{
+    cursor: pointer;
+    height: 37px;
+    width: 275px;
+    border-radius: 5px;
+    border: 1px solid rgb(38,189,104);
+    background-color: rgb(38,189,104);
+    color:white;
+    letter-spacing: 1.5px;
+    margin-left: 337px;
+    margin-top: -26px;
+
+}
+.sectiontop{
+    width: 100%;
+    height: 436px;
+    background-color:red;
+    position: relative;
+    background-color: rgb(255,255,255);
+
+}
+.sectionbottom{
+    width: 100%;
+    height: 400px;
+    background-color:green;
+    background-color: rgb(255,255,255);
+
+}
+.head-sec3{
+    color:RGB(6, 103, 89) ;
+    font-size: 32px;
+    font-weight:900;
+    line-height:40px;
+    margin-top: 150px;
+    margin-left: 123px;
+    
+
+}
+.para-sec3{
+    color: RGB(45, 62, 80);
+    font-family:roboto, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 123px;
+}
+.img1-sec3{
+    margin-left: 837px;
+    padding-top: -19px;
+    margin-top: -239px;
+    position: absolute;
+}
+.img2-sec3{
+    margin-left: 262px;
+    margin-top: 51px;
+}
+.section4{
+    background-color: rgb(4,202,113);
+    width: 100%;
+    height: 415px;
+    
+}
+.img1-sec4{
+  
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.head-sec4{
+    color: #ccc;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+    margin-top: 91px;
+    margin-left: 62px;
+}
+#para-sec4{
+    
+    color: RGB(255, 255, 255);
+    font-size: 19px;
+    list-style: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 65px;
+
+}
+.head1-sec5{
+
+    color:RGB(6, 103, 89) ;
+    font-size: 32px;
+    font-weight:900;
+    line-height:40px;
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 500px;
+}
+.para-sec5{
+      
+    color: RGB(45, 62, 80);
+    font-family:roboto, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 200px;
+    width: 500px;
+
+}
+.head2-sec5{
+    
+    color:RGB(6, 103, 89) ;
+    font-size: 32px;
+    font-weight:900;
+    line-height:40px;
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 90px;
+
+}
+.para2-sec5{
+    color: RGB(45, 62, 80);
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 233px;
+    margin-left: -400px;
+
+}
+.contactus{
+    width: 100%;
+    height: 86px;
+    background-color: rgb(38,189,104);
+    
+    
+}
+.cont-pic{
+    margin-top: 21px;
+    margin-left: 222px;
+}
+.footer{
+    width: 100%;
+    height: 431px;
+    background-color: rgb(222,244,233);
+    
+    
+}
+.foot-para{
+    color: RGB(45, 62, 80);
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: centerleft;
+    margin-left: 172px;
+    margin-top: 30px;
+    width: 400px;
+    height: 140px;
+
+}
+.foot-img{
+   
+    margin-top: 100px;
+    width: 257px;
+    margin-left: 191px;
+}
+li{
+    list-style-type: none;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+#footul{
+    color: RGB(45, 62, 80);
+    margin-top: -15pc;
+    margin-left: 550px;
+    width: 200px;
+}
+#footul-2{
+    color: RGB(45, 62, 80);
+    margin-top: -15pc;
+    margin-left: 748px;
+    width: 200px;
+
+}
+.followus-pic{
+    margin-left: 250px;
+    margin-top: -50px;
+}
+#last-p{
+    color: RGB(45, 62, 80);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -29px;
+    margin-left: 596px;
+
+}
